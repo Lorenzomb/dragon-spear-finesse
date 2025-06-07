@@ -13,7 +13,7 @@
     <info>
         <name>Meus Itens Homebrew (D&D 5e)</name>
         <update version="1.0.0">
-            <file name="meus-itens-homebrew.index" url="https://raw.githubusercontent.com/lorenzomb/dragon-spear-finesse/main/meus-itens-homebrew.index" />
+            <file name="meus-itens-homebrew.index" url="https://raw.githubusercontent.com/lorenzomb/dragon-spear-finesse/main/spear-dragon.index" />
         </update>
     </info>
     <files>
