@@ -1,0 +1,20 @@
+<element name="Lança Curta Dracônica Sibilante" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_LANCA_SIBILANTE">
+    <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN</supports>
+    <description>
+        <p>Você recebe um bônus de +1 nas jogadas de ataque e dano com esta arma mágica.</p>
+        <p>Ao causar dano perfurante com esta arma, você causa 2d6 de dano perfurante adicional.</p>
+        <p>Seu alcance de arremesso é de 20 pés (normal) e 60 pés (máximo).</p>
+        <p>Opcionalmente, com aprovação do Mestre, o dado de dano adicional pode ser substituído por outro tipo (como 2d4 ou 1d10), representando variações elementais da lança.</p>
+    </description>
+    <setters>
+        <set name="category">Weapons</set>
+        <set name="cost" currency="gp">75</set>
+        <set name="weight" lb="3">3 lb.</set>
+        <set name="slot">onehand</set>
+        <set name="range">20/60</set>
+        <set name="damage" type="piercing">1d6</set>
+        <set name="bonus">1</set> <!-- bônus mágico de +1 -->
+        <set name="additionalDamage" type="piercing">2d6</set> <!-- dano adicional -->
+        <set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+    </setters>
+</element>

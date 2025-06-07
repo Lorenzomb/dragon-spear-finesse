@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Lança Curta Dracônica Sibilante</name>
+    <source>Homebrew</source>
+    <author>Gemini</author>
+  </info>
+  <entries>
+    <entry type="item" source="spear-dragon.xml" />
+  </entries>
+</index><?xml version="1.0" encoding="utf-8"?>
+<index>
+    <info>
+        <name>Meus Itens Homebrew (D&D 5e)</name>
+        <update version="1.0.0">
+            <file name="meus-itens-homebrew.index" url="https://raw.githubusercontent.com/lorenzomb/dragon-spear-finesse/main/meus-itens-homebrew.index" />
+        </update>
+    </info>
+    <files>
+        <file name="spear-dragon.xml" url="https://raw.githubusercontent.com/lorenzomb/dragon-spear-finesse/main/spear-dragon.xml" />
+        </files>
+</index>
